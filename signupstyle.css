@@ -1,0 +1,107 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    height: 100%;
+    background: #0ba4e6;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: whitesmoke;
+    max-width: 500px;
+    min-height: 450px;
+    margin: 60px auto 60px auto;
+    border: 2px solid #ccc;
+    border-radius: 35px;
+    padding: 50px 70px;
+}
+
+label {
+    display: block;
+    margin: 20px 0 auto 0;
+}
+
+input {
+    border-radius: 30px;
+    padding: 20px;
+    background: #ccc;
+    border: 0 solid #ccc;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    padding: 20px 60px;
+    border-radius: 20px;
+    color: white;
+    background: #0e8fc7;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    width: 30px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.lblcheck {
+    text-align:justify;
+}
+
+input[type="date"] {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #525150;
+}
+
+fieldset {
+    border: 0 solid whitesmoke;
+}
+
+p {
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.lblGray {
+    color: #525150;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.lblRadio {
+    color: #525150;
+    font-weight: bold;
+    font-size: 16px;
+    background: #ccc;
+    border-radius: 10px;
+    width: 200px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0e8fc7;
+}
