@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>PhoneBook</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -19,15 +19,17 @@
                 <img src="img/grupo.png" alt="pessoas">
             </div>
         </div>
-
+        
+        <!-- Login -->
         <div class="box-2">
             <div class="login">
                 <p>Log in</p>
                 <form action="#" method="post">
                     <fieldset>
-                        <label for="email"><input type="email" name="email" id="email" placeholder="Email" size="24"></label>
-                        <label for="senha"><input type="password" name="senha" id="senha" placeholder="Senha" size="24"></label>
+                        <label for="email"><input type="email" name="email" id="email" placeholder="Email" size="24" required></label>
+                        <label for="senha"><input type="password" name="senha" id="senha" placeholder="Senha" size="24" required></label>
                         <label><input type="submit" name="btn" id="btn" value="Log in"></label>
+                        <!-- Link para o Sign up -->
                         <label>Não possuí uma conta.<a href="signupPag.php"> Sign Up</a></label>
                     </fieldset>
                 </form>
